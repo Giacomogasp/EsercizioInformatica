@@ -1,0 +1,46 @@
+﻿<Window x:Class="EsercizioInformatica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EsercizioInformatica"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-56,0">
+        <Label Content="COGNOME" HorizontalAlignment="Left" Margin="86,36,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="NOME" HorizontalAlignment="Left" Margin="86,92,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="SESSO" HorizontalAlignment="Left" Margin="86,154,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="DATA  DI NASCITA" HorizontalAlignment="Left" Margin="47,210,0,0" VerticalAlignment="Top" Width="113"/>
+        <Label Content="Città di Residenza" HorizontalAlignment="Left" Margin="36,261,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label Content=" IMPORTO RICHIESTO" HorizontalAlignment="Left" Margin="279,37,0,0" VerticalAlignment="Top" Width="128"/>
+        <Label Content="N.RATE" HorizontalAlignment="Left" Margin="279,97,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="PERCENTUALE" HorizontalAlignment="Left" Margin="279,154,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Name="lblimpdarestituire" Content="IMPORTO DA RESTITUIRE" HorizontalAlignment="Left" Margin="278,209,0,0" VerticalAlignment="Top" Width="144" RenderTransformOrigin="0.361,0.594">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.169"/>
+                    <TranslateTransform X="0.047" Y="0.358"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Name="lblimportorata" Content="IMPORTO PER RATA" HorizontalAlignment="Left" Margin="290,269,0,0" VerticalAlignment="Top" Width="117"/>
+        <TextBox Name="txtcognome" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Margin="165,40,0,0"/>
+        <TextBox Name="txtnome" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" Margin="165,96,0,0"/>
+        <TextBox Name="txtimporto" HorizontalAlignment="Left" Height="23" Margin="431,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtrate" HorizontalAlignment="Left" Height="23" Margin="431,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtpercentuale" HorizontalAlignment="Left" Height="23" Margin="431,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtimportorata" HorizontalAlignment="Left" Height="23" Margin="431,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <TextBox Name="txtimportodarestituire" HorizontalAlignment="Left" Height="23" Margin="431,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70"/>
+        <RadioButton Name="rdbf" Content="" HorizontalAlignment="Left" Margin="165,165,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="rdbm" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="227,165,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="dtp1" HorizontalAlignment="Left" Margin="165,219,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cmb1" HorizontalAlignment="Left" Margin="165,265,0,0" VerticalAlignment="Top" Width="102"/>
+        <Button Name="btncalcola" Content="CALCOLA" HorizontalAlignment="Left" Margin="687,34,0,0" VerticalAlignment="Top" Width="86" Height="28" Click="btncalcola_Click"/>
+        <Button Name="btnnuovo" Content="NUOVO" HorizontalAlignment="Left" Margin="687,96,0,0" VerticalAlignment="Top" Width="86" Height="23"/>
+        <Button Name="btnstampa" Content="STAMPA" HorizontalAlignment="Left" Margin="687,154,0,0" VerticalAlignment="Top" Width="86" Height="26"/>
+        <Label Name="lblscrittura" Content="" HorizontalAlignment="Left" Margin="106,300,0,0" VerticalAlignment="Top" Width="607" Height="90"/>
+
+    </Grid>
+</Window>
