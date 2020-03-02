@@ -9,7 +9,7 @@
     <Grid Margin="0,0,-56,0">
         <Label Content="COGNOME" HorizontalAlignment="Left" Margin="86,36,0,0" VerticalAlignment="Top" Width="74"/>
         <Label Content="NOME" HorizontalAlignment="Left" Margin="86,92,0,0" VerticalAlignment="Top" Width="74"/>
-        <Label Content="SESSO" HorizontalAlignment="Left" Margin="86,154,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="SESS" HorizontalAlignment="Left" Margin="86,154,0,0" VerticalAlignment="Top" Width="74"/>
         <Label Content="DATA  DI NASCITA" HorizontalAlignment="Left" Margin="47,210,0,0" VerticalAlignment="Top" Width="113"/>
         <Label Content="Città di Residenza" HorizontalAlignment="Left" Margin="36,261,0,0" VerticalAlignment="Top" Width="103"/>
         <Label Content=" IMPORTO RICHIESTO" HorizontalAlignment="Left" Margin="279,37,0,0" VerticalAlignment="Top" Width="128"/>
